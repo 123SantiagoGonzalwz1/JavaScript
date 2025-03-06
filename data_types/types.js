@@ -137,11 +137,24 @@ let personInfoOne = fullName + '. I am ' + age + '. I live in ' + country;
 console.log(personInfoOne);
 
 // Scapes
-console.log('I hope everyone is enjoying the 30 Days of JavaScript challenge.\nDo you ?') // \n Hace un salto de línea
+console.log('I hope everyone is enjoying the 30 Days of JavaScript challenge.\nDo you ?'); // \n Hace un salto de línea
 console.log('Days\tTopics\tExcercises'); // Tabulación
 console.log('This is a BackSlash symbol (\\)'); // Para insertar un BackSlash
-console.log('In every programming language it starts with \"Hello, World!\"') // Para insertar comillas simples o dobles
-console.log("In every programming language it starts with \'Hello, World!\'")
-console.log('The saying \'Seeing is Believing\' isn\'t correct in 2020')
+console.log('In every programming language it starts with \"Hello, World!\"'); // Para insertar comillas simples o dobles
+console.log("In every programming language it starts with \'Hello, World!\'");
+console.log('The saying \'Seeing is Believing\' isn\'t correct in 2020');
 
 // Plantillas de Cadena
+console.log(`The sum of 2 and 3 is 5`);
+let a = 2;
+let b = 3;
+console.log(`The sum of ${a} and ${b} is ${a + b}`);
+console.log(`${a} is greater than ${b}: ${a > b}`)
+
+let personInfoTwo = `I am ${fullName}. I am ${age}. I live in ${country}.`;
+let personInfoThree = `I am ${fullName}. I live in ${city}, ${country}. I am a ${job}. I teach ${language}.`;
+
+console.log(personInfoTwo);
+console.log(personInfoThree);
+
+// Métodos String
